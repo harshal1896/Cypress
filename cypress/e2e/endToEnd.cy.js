@@ -9,7 +9,7 @@ describe('locator', function () {
 
         cy.get("[type='submit']").click() //click on Search button
 
-        cy.get("[value='Add to cart']").click()
+        cy.get(".button-1 add-to-cart-button[value=Add to cart]").click()
         
         cy.get("addtocart_4_EnteredQuantity").clear().type('2') // Quantity cy.wait(3000)
         
