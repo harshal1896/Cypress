@@ -16,7 +16,7 @@ describe(' ', () => {
 
         cy.go('forward')
 
-        cy.title().should('eq, nopCommerce demo store. Register') //Reg
+        cy.title().should('eq', 'nopCommerce demo store. Register') //Reg
 
         cy.go(-1)//back cy.title().should('eq', 'nopCommerce demo store') //Home
 
